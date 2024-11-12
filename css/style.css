@@ -1,0 +1,57 @@
+/* Fonte Medieval */
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+/* Estilos Customizados */
+body {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    color: #f8f9fa;
+}
+
+.font-fantasy {
+    font-family: 'Uncial Antiqua', cursive;
+    color: #ffd700;
+}
+
+h1, h5 {
+    color: #ffd700;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-body h5 {
+    color: #343a40;
+    font-weight: bold;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #ffd700;
+}
+
+.btn-primary:hover {
+    background-color: #ffd700;
+    border-color: #ffd700;
+    color: #343a40;
+}
+
+.header {
+    background: url('img/fundo.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
