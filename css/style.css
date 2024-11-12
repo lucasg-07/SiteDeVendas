@@ -1,57 +1,82 @@
-/* Fonte Medieval */
-@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
-
-/* Estilos Customizados */
 body {
-    background-color: #121212;
     font-family: Arial, sans-serif;
-    color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
-.font-fantasy {
-    font-family: 'Uncial Antiqua', cursive;
-    color: #ffd700;
+h1,
+h2 {
+    color: #cac6c6;
 }
 
-h1, h5 {
-    color: #ffd700;
+header,
+section {
+    padding: 20px;
 }
 
-.navbar-brand {
-    font-size: 1.5rem;
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
 }
 
-.card {
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
     border: none;
-    transition: transform 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.05);
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.card-body h5 {
-    color: #343a40;
-    font-weight: bold;
+
+
+.rodape{
+    background-color: #6c757d;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+}
+.rodape a{
+    text-decoration: none;
+    color: white;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
+.rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
 }
-
-.btn-primary {
-    background-color: #343a40;
-    border-color: #ffd700;
+.rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
 }
-
-.btn-primary:hover {
-    background-color: #ffd700;
-    border-color: #ffd700;
-    color: #343a40;
+.rodape span{
+    font-size: 20px;
+    color: white;
 }
-
-.header {
-    background: url('img/fundo.jpg') no-repeat center center fixed;
-    background-size: cover;
+.rodape-direitos{
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
 }
